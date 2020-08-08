@@ -1,0 +1,134 @@
+﻿
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап установки успешно выполнен, начинается этап фиксации.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап фиксации выполнен успешно.
+
+Групповая операция установки выполнена.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+На этапе установки возникло исключение.
+System.InvalidOperationException: Невозможно открыть диспетчер управления службами на компьютере '.'. Возможно, для этой операции требуются другие полномочия.
+Возникло внутреннее исключение System.ComponentModel.Win32Exception со следующим сообщением об ошибке: Отказано в доступе.
+
+Начинается этап отката процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап отката выполнен успешно.
+
+Групповая операция установки выполнена.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап установки успешно выполнен, начинается этап фиксации.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап фиксации выполнен успешно.
+
+Групповая операция установки выполнена.
+
+
+Начинается установка.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Удаление из системы выполнено.
+
+
+Начинается установка.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Удаление из системы выполнено.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап установки успешно выполнен, начинается этап фиксации.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап фиксации выполнен успешно.
+
+Групповая операция установки выполнена.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+На этапе установки возникло исключение.
+System.InvalidOperationException: Невозможно открыть диспетчер управления службами на компьютере '.'. Возможно, для этой операции требуются другие полномочия.
+Возникло внутреннее исключение System.ComponentModel.Win32Exception со следующим сообщением об ошибке: Отказано в доступе.
+
+Начинается этап отката процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\visual studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап отката выполнен успешно.
+
+Групповая операция установки выполнена.
+
+
+Начинается установка.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Удаление из системы выполнено.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап установки успешно выполнен, начинается этап фиксации.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап фиксации выполнен успешно.
+
+Групповая операция установки выполнена.
+
+
+Начинается установка.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Удаление из системы выполнено.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап установки успешно выполнен, начинается этап фиксации.
+См. файл журнала выполнения операция для сборки C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.exe.
+Данный файл находится в C:\Users\dns\Documents\Visual Studio 2013\Projects\Service\Service\bin\Debug\Service.InstallLog.
+
+Этап фиксации выполнен успешно.
+
+Групповая операция установки выполнена.
