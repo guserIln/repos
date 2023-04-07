@@ -142,28 +142,7 @@ namespace Service
         }
         private string RemoveSpaces(string inputString)
         {
-           // String res = "";
-          //  for (int i = 0; i < inputString.Length; i++)
-          //  {
-          //      char ch = inputString.ElementAt(i);
-          //      switch (ch)
-           //     {
-          //          case '0': { res = res + ch; break; }
-          //          case '1': { res = res + ch; break; }
-          //          case '2': { res = res + ch; break; }
-          //          case '3': { res = res + ch; break; }
-         //           case '4': { res = res + ch; break; }
-         //           case '5': { res = res + ch; break; }
-         //           case '6': { res = res + ch; break; }
-         //           case '7': { res = res + ch; break; }
-         //           case '8': { res = res + ch; break; }
-         //           case '9': { res = res + ch; break; }
-
-
-          //      }
-          //  }
-
-               String res = "";
+            String res = "";
             for (int i = 0; i < inputString.Length; i++)
             {
                 char ch = inputString.ElementAt(i);
