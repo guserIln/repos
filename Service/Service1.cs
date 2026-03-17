@@ -345,11 +345,13 @@ namespace Service
 
         private bool check_ID(int id)
         {
-            string queryString = "SELECT * FROM ads2 WHERE ads_id='" + id + "'";
+            string queryString = "SELECT * FROM ads2 WHERE ads_id=@id";
+            
             using (MySqlConnection con = new MySqlConnection())
             {
                 con.ConnectionString = mysqlCSB.ConnectionString;
                 MySqlCommand com = new MySqlCommand(queryString, con);
+                com.Parameters.AddWithValue("@id", id);
                 try
                 {
                     con.Open();
@@ -372,28 +374,43 @@ namespace Service
         }
         private void insert_rec(int id, String title, int price, int ets_count, int et_num, String description, String adress, String house_type, int kol_kom, double square_d, String url)
         {
-            string queryString = "INSERT INTO ads2(id, ads_ID, title, price, ets_count, et_num, description, adress, house_type, kol_kom, square_d, url) VALUES('','" + id + "', '" + title + "', '" + price + "', '" + ets_count + "', '" + et_num + "', '" + description + "', '" + adress + "', '" + house_type + "', '" + kol_kom + "', '" + square_d + "', '" + url + "')";
-            using (MySqlConnection con = new MySqlConnection())
+           string queryString = "INSERT INTO ads2 (id, ads_ID, title, price, ets_count, et_num, description, address, house_type, kol_kom, square_d, url) " +
+                         "VALUES (@id, @ads_ID, @title, @price, @ets_count, @et_num, @description, @address, @house_type, @kol_kom, @square_d, @url)";
+
+            using (MySqlConnection con = new MySqlConnection(mysqlCSB.ConnectionString))
             {
-                con.ConnectionString = mysqlCSB.ConnectionString;
-                MySqlCommand com = new MySqlCommand(queryString, con);
-                try
-                {
-                    con.Open();
-                    using (MySqlDataReader dr = com.ExecuteReader())
+                using (MySqlCommand com = new MySqlCommand(queryString, con))
+              {
+                com.Parameters.AddWithValue("@id", id);
+                com.Parameters.AddWithValue("@ads_ID", id); 
+                com.Parameters.AddWithValue("@title", title);
+                com.Parameters.AddWithValue("@price", price);
+                com.Parameters.AddWithValue("@ets_count", ets_count);
+                com.Parameters.AddWithValue("@et_num", et_num);
+                com.Parameters.AddWithValue("@description", description);
+                com.Parameters.AddWithValue("@address", address);
+                com.Parameters.AddWithValue("@house_type", house_type);
+                com.Parameters.AddWithValue("@kol_kom", kol_kom);
+                com.Parameters.AddWithValue("@square_d", square_d);
+                com.Parameters.AddWithValue("@url", url);
+
+               try
+               {
+                con.Open();
+                 using (MySqlDataReader dr = com.ExecuteReader())
                     {
                         if (dr.HasRows)
-                        {
-                            dt.Load(dr);
+                       {
+                           dt.Load(dr);
                         }
                     }
-                }
+               }
                 catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
+               {
+                  Console.WriteLine(ex.Message);
+               }
+             }
             }
-            //   return dt;
         }
 
         protected override void OnStop()
